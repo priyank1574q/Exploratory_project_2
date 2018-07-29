@@ -8,7 +8,7 @@ NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 years <- c("1999","2002","2005","2008")
 
-# The data for Baltimore City, Maryland was selected.
+# The data for Baltimore City, Maryland is selected.
 # The data is grouped by type and year and the sum of each was calculated and this data is now plotted.
 # Note - The data could have been plotted as a panel plot in which each type of emission would have its own plow, it is mentioned as comment below.
 # Lines are added between the points to see the trend for each type of emssion from 1999 to 2008.
