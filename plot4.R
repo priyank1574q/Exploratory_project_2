@@ -7,7 +7,7 @@ NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 years <- c("1999","2002","2005","2008")
 
-# The data for emission caused by coal is selected and then sum of emmision in each year is calculated.
+# The data for emission caused by coal is selected and then the total emmision in each year is calculated.
 # Lines are added between the points to see the trend for coal emmision from 1999 to 2008.
 code <- SCC[grep("[Cc]oal", SCC$Short.Name),1]
 coalData <- NEI[(NEI$SCC %in% code),]
