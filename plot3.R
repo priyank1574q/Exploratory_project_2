@@ -1,4 +1,4 @@
-# The required library is loaded and the working directory is set to the current directory.
+# The required libraries are loaded and the working directory is set to the current directory.
 library(dplyr)
 library(ggplot2)
 setwd("exdata_2Fdata%2FNEI_data")
