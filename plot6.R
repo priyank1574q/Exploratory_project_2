@@ -28,6 +28,6 @@ lines(years, dataBC)
 plot(years, dataLA, pch = 19, xlab = "Year", ylab = "Emissions", xlim = c(1998,2008))
 lines(years, dataLA)
 
-
+# The plot is now saved in the current working directory.
 dev.copy(png, file = "plot6.png")
 dev.off()
